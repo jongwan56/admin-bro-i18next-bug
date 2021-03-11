@@ -1,0 +1,24 @@
+{
+  "name": "admin-bro-i18next-bug",
+  "version": "1.0.0",
+  "description": "Reproduce the problem that i18next config is initialized when entering the login template.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongwan56/admin-bro-i18next-bug.git"
+  },
+  "author": "Jongwan Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "3.1.0",
+    "admin-bro": "3.4.0",
+    "express": "4.17.1",
+    "express-formidable": "1.2.0",
+    "express-session": "1.17.1",
+    "i18next": "19.9.2",
+    "tslib": "2.1.0"
+  }
+}
